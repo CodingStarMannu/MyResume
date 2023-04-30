@@ -1,0 +1,78 @@
+html{
+    font-size: 25px;
+}
+
+/* Mobile-first */
+#div1{
+    width: 100%;
+    border: 1px solid black;
+}
+
+
+
+/* @media screen and (min-width: 600px){
+ #div1{
+    width: 80%;
+ }
+}
+@media screen and (min-width: 900px){
+ #div1{
+    width: 60%;
+ }
+} */
+ 
+
+/* max-width */
+
+/* body {
+    background-color: lightgrey;
+}
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: rgb(198, 173, 230);
+    }
+}
+@media only screen and (max-width: 1024px) {
+    body {
+        background-color: lightgreen;
+    }
+} */
+
+
+/* min-width */
+
+body {
+    background-color: lightgrey;
+}
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: lightblue;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    body {
+        background-color: lightgreen;
+    }
+}
+
+
+
+/* Desktop-first */
+
+/* #div1{
+    width: 60%;
+    border: 1px solid black;
+} */
+
+/* @media screen and (max-width: 600px){
+    #div1{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 900px){
+    #div1{
+        width: 90%;
+    }
+} */
+
+

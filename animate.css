@@ -1,0 +1,17 @@
+div{
+   
+    width: 100px;
+    height: 100px;
+}
+.one{
+    top: 50%;
+    left: 40%;
+    margin: 10px 10px 10px 10px;
+    background-color: blue;
+}
+.two{
+    top: 50%;
+    left: 40%;
+    margin: 10px 10px 10px 10px;
+    background-color:red;
+}

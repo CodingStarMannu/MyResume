@@ -1,0 +1,65 @@
+#container{
+    height: 600px;
+    width: 600px;
+    background-color: lightgrey;
+    display:flex; 
+    /* flex-direction: row-reverse;
+    flex-wrap: wrap; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse;
+    flex-wrap: wrap-reverse; */
+
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    align-items: center;
+    /* align-items: stretch; */
+    /* align-items: baseline; */
+    
+}
+
+#container div{
+    height: 100px;
+    max-height: 400px;
+    width: 100px;
+}
+
+/* flex grow and shrink */
+#div1{
+    background-color: rgb(94, 255, 0);
+    /* margin: 10px; */
+    /* order:20; */
+    /* flex-grow: 4; */
+    /* flex-shrink: 4; */
+}
+#div2{
+    background-color: blueviolet;
+    /* margin: 30px; */
+    /* order:14; */
+    /* flex-grow: 1; */
+    /* flex-shrink:0; */
+}
+
+/* order */
+#div3{
+    background-color: rgb(255, 208, 0);
+    /* margin: 50px; */
+    /* order: 31; */
+}
+#div4{
+    background-color: rgb(69, 19, 194);
+    /* order:6; */
+}
+#div5{
+    background-color: rgb(235, 231, 23);
+    /* order:7; */
+}
+#div6{
+    background-color: rgb(234, 70, 34);
+    /* order:7; */
+}

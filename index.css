@@ -1,0 +1,68 @@
+html{
+    font-size: 30px;
+}
+
+#div1{
+   
+    height: 4rem;
+    width: 6rem;
+    background-color: aqua;
+    border-width: 4px;
+    border-style: solid;
+    border-color: rgb(201, 35, 101);
+    border-radius:4px;
+ 
+    
+    border-bottom-width: 2px;
+     /* margin-top: 10px;
+    margin: 4px 10px 20px 30px;
+    margin:auto; */
+    margin-bottom: 10px;
+
+    padding: -20px;
+}
+#div2{
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    border: 5px dashed #ff6060;
+    border-left: none;
+    border-radius: 50px 50px 0 0;
+}
+#div3{
+    height: 4rem;
+    width: 6rem;
+    background-color: yellow;
+}
+
+
+
+#sample-para{
+    /* border: 2px solid red; */
+    border-left: 4px solid red;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: justify;
+    color:blue;
+    line-height: 40px;
+    text-transform: capitalize;
+    text-decoration: auto;
+    font-style: italic;
+    
+}
+
+
+
+#logo-img-container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('https://www.edtechreview.in/images/Coding_Ninjas.jpg');
+    background-repeat: no-repeat;
+    /* background-position:left; */
+    background-size: cover;
+    /* background-size: contain; */
+    /* background-size: 200px 300px; */
+    background-attachment: fixed;
+    
+
+}

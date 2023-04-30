@@ -1,0 +1,121 @@
+/* overflow  */
+
+
+/* #container{
+    width: 50px;
+    height: auto;
+    border: 2px solid black;
+    overflow-wrap: break-word;
+    /* overflow-wrap: normal; */
+/* } */ 
+
+
+/* Gradient  */
+
+/* #container{
+    height: 400px;
+    width: 400px;
+    margin: 40px;
+    border: 2px solid black;
+    /* background-image: linear-gradient(120deg, red ,cyan 20px,blue,purple); */
+    /* background: repeating-radial-gradient(red, blue); */
+    /* background: repeating-linear-gradient(red, blue , purple ); */
+    /* background: repeating-linear-gradient(blue,red); */
+    /* background: -webkit-repeating-linear-gradient(black red); */
+
+    /* background: radial-gradient(time); */
+    
+
+
+
+    /* pseudo classes */
+
+
+    /* p:active{
+        background-color: cyan;
+    }
+
+    a:active{
+        color: red;
+    }
+    a:visited{
+        color: green;
+    }
+    a:link{
+        color:pink;
+    } */
+ 
+/* Lightbox */
+
+
+    /* #lightbox{
+        height:0;
+        width: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        transition: all 0.5s ease-in-out;
+}
+
+    #lightbox:target{
+        height: 30%;
+        width: 30%;
+        top: 25%;
+        left: 25%;
+        background-color: aquamarine;
+    } */
+
+
+    /* pseudo elements */
+
+    /* .styled-first-letter::first-letter{
+        font-size:  1.5rem;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+    p::first-line{
+        font-size:  1.5rem;
+        font-weight: bold;
+        text-transform: capitalize;
+    } */
+
+
+ul{
+    list-style: none;
+}
+
+    /* before and after pseudo elements */
+
+li::before{
+    content:'';
+    display: inline-block;
+        height: 40px;
+        width: 40px;
+        background-size: contain;
+        background-image:url("https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+        font-size:  1.5rem;
+
+    
+}
+
+    p::before{
+        content:'This is the content used to learn before element';
+        font-size:  1.5rem;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+    p::after{
+        content:'';
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        background-size: contain;
+        background-image:url("https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+        font-size:  1.5rem;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+
+
+
